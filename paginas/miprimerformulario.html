@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mi primer formulario</title>
+</head>
+<body>
+    <h1>Este es mi formulario</h1>
+    <form action="#" method="GET">
+    	<table border=1>
+    		<tr>
+    			<td><label for="campoNombre">Nombre: </label></td>
+    			<td><input id="campoNombre" type= "text" name="Nombre"/></td>
+    		</tr>
+    		<tr>
+    			<td><label for="campoprimerApellido">Primer apellido:</label></td> 
+    			<td><input id="campoprimerApellido" type= "text" name="Primer apellido"/></td>
+    		</tr>
+    		<tr>
+    			<td><label for="camposegundoApellido">Segundo apellido:</label> </td>
+    			<td><input id="camposegundoApellido" type= "text" name="Segundo apellido"/></td>
+    		</tr>
+    	</table>
+    	<br/>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+		<label for="javascript">JavaScript</label>
+    	<br><br/>
+    	<label for="cars">Choose a car:</label>
+		<select name="cars" id="cars">
+  			<option value="volvo">Volvo</option>
+  			<option value="saab">Saab</option>
+  			<option value="mercedes">Mercedes</option>
+ 			<option value="audi">Audi</option>
+		</select>
+		<br></br>
+		<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+		<label for="vehicle1"> I have a bike</label><br>
+		<input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+		<label for="vehicle2"> I have a car</label><br>
+		<input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+		<label for="vehicle3"> I have a boat</label><br>
+		<br></br>		
+	    <input type="submit" value="Guardar"/>
+    </form>
+	<section id="volver">
+		<a href="Trabajos.html">
+			<button>Mis Proyectos</button>
+		</a>
+	</section>
+</body> 
+</html>  
